@@ -23,7 +23,7 @@ const player2 = {
 function createPlayer(player, name, life) {
   const $life = document.createElement('div');
   $life.classList.add('life');
-  $life.style.width = player.hp;
+  $life.style.width = player.hp + '%';
 
   const $name = document.createElement('div');
   $name.classList.add('name');
